@@ -1,0 +1,161 @@
+#header nav {
+	height: 252px;
+}
+#header_2 nav {
+	height: 252px;
+}
+@media (max-width: 979px) {
+	#header_2 nav {
+		height: 113px;
+	}
+}
+#header nav,
+#header_2 nav {
+	position: relative;
+	z-index: 1;
+	float: right;
+}
+@media (max-width: 979px) {
+	#header nav,
+	#header_2 nav {
+		float: none;
+		text-align: center;
+	}
+}
+/* Main menu styles
+========================================================*/
+.sf-menu {
+	display: inline-block;
+}
+.sf-menu > li {
+	position: relative;
+	float: left;
+	margin-top: 112px;
+	margin-left: 42px;
+	margin-bottom: 124px;
+}
+.sf-menu > li > a {
+	display: inline-block;
+	width: 100%;
+	line-height: 14px;
+	color: #ffffff;
+}
+.sf-menu > li.current > a,
+.sf-menu > li.sfHover > a,
+.sf-menu > li > a:hover {
+	color: #54bf83;
+}
+.sf-menu > li:first-child {
+	margin-left: 0;
+}
+.sf-menu a {
+	font: normal 14px 'Roboto', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	-ms-transition: 0.3s all ease;
+	-o-transition: 0.3s all ease;
+	transition: 0.3s all ease;
+}
+.sf-menu a:hover {
+	text-decoration: none;
+}
+/* First level sub-menu styles
+========================================================*/
+.sf-menu ul {
+	position: absolute;
+	top: 43px;
+	left: 50%;
+	background: #54bf83;
+	padding: 36px 0 30px;
+	width: 234px;
+	margin-left: -114px;
+	z-index: 2;
+	display: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.sf-menu ul li {
+	line-height: 28px;
+	position: relative;
+	text-align: center;
+}
+.sf-menu ul li a {
+	color: #fff;
+}
+.sf-menu ul li a:hover {
+	color: #363f45;
+}
+.sf-menu ul li.sfHover > a {
+	color: #363f45;
+}
+.sf-menu ul:after {
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 5px 5px 5px;
+	border-color: transparent transparent #54bf83 transparent;
+}
+/* Second level sub-menu styles
+========================================================*/
+.sf-menu ul ul {
+	position: absolute;
+	top: -7px;
+	left: 109%;
+	padding: 30px 0 23px 6px;
+	margin-left: 0;
+	z-index: 4;
+	background-color: #363f45;
+}
+.sf-menu ul ul:after {
+	content: '';
+	position: absolute;
+	top: 12px;
+	left: 0px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px 5px 5px 0;
+	border-color: transparent #363f45 transparent transparent;
+}
+.sf-menu ul ul li a:hover {
+	color: #54bf83;
+}
+/* Select menu
+========================================================*/
+.select-menu {
+	margin: 50px 0 10px;
+	height: 32px;
+	font-size: 22px;
+	line-height: 32px;
+}
+@media (max-width: 979px) {
+	.sf-menu > li {
+		margin-top: 50px;
+		margin-left: 42px;
+		margin-bottom: 0px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.sf-menu {
+		display: none;
+	}
+	.select-menu {
+		margin-top: 40px;
+		display: block;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.select-menu {
+		margin-top: 74px;
+	}
+}
+/*Core variables and mixins*/

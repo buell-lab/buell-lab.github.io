@@ -1,0 +1,39 @@
+/*
+|--------------------------------------------------------------------------
+| UItoTop jQuery Plugin 1.1
+| http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
+|--------------------------------------------------------------------------
+ */
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 45px;
+	left: 51%;
+	margin-left: 640px;
+	overflow: hidden;
+	color: #fff;
+	width: 34px;
+	height: 34px;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 500px;
+	line-height: 34px;
+	z-index: 20;
+	background-color: #454b57;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+#toTop:hover {
+	outline: none;
+	background-color: #54bf83;
+}
+@media (max-width: 1400px) {
+	#toTop {
+		display: none!important;
+	}
+}
+/*Core variables and mixins*/
