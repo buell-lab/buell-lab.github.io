@@ -78,8 +78,7 @@ a.thumb div {
 div.bio {
     opacity: 0;
     padding-top: 10px;
-    max-height: 0px; 
-    overflow: hidden;
+    max-height: 0px;
     -webkit-transition: 0.7s all ease;
     -moz-transition: 0.7s all ease;
     -ms-transition: 0.7s all ease;
@@ -89,7 +88,7 @@ div.bio {
 img + div.bio:hover,
 img:hover + div.bio {
     opacity: 1;
-    max-height: 200px;
+    max-height: 240px;
 }
 div.bio.graduate {
     width: 80vw;
@@ -221,10 +220,10 @@ h2.h2_2 {
     padding-bottom: 35px;
 }
 h2.h2_3 {
-    font: 300 28px 'Roboto', sans-serif;  
+    font: 300 28px 'Roboto', sans-serif;
 }
 h2.h2_4 {
-    font: 300 18px 'Roboto', sans-serif;  
+    font: 300 18px 'Roboto', sans-serif;
 }
 .wrapper_6 h2.h2_2 {
     padding-bottom: 10px;
@@ -263,6 +262,10 @@ a.publications {
 }
 .primary-btn_2 {
     margin-top: 43px;
+}
+.primary-btn_3{
+  margin-top:0px;
+  margin-bottom: 10px;
 }
 /*=================  Box =======================*/
 div.image_row {
@@ -431,6 +434,11 @@ img.put-float {
 }
 [class^='box_'] .primary-btn_2 {
     margin-top: 44px;
+}
+[class^='box_'] .primary-btn_3 {
+    margin-left: 75px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 [class^='box_'] .maxheight {
     margin-top: -1px;
@@ -755,7 +763,7 @@ ul.social-list li a:hover {
     }
 }
 /*========================================================
-RESPONSIVE LAYOUTS STYLES 
+RESPONSIVE LAYOUTS STYLES
 =========================================================*/
 @media (max-width: 767px) {
     #footer {
