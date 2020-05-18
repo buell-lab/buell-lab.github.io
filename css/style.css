@@ -306,7 +306,7 @@ img.put-float {
     padding-bottom: 0;
 }
 [class^='box_'] .header {
-    padding-bottom: 33px;
+    padding-bottom: 10px;
 }
 [class^='box_'] .header,
 [class^='box_'] .header a {
