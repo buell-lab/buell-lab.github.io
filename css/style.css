@@ -317,7 +317,7 @@ img.put-float {
     letter-spacing: -1px;
 }
 [class^='box_'] .header a:hover {
-    color: #54bf83;
+    color: #BA0C2F;
     text-decoration: none;
 }
 [class^='box_'] .header_2,
@@ -329,7 +329,7 @@ img.put-float {
     letter-spacing: -1px;
 }
 [class^='box_'] .header_2 a:hover {
-    color: #54bf83;
+    color: #BA0C2F;
     text-decoration: none;
 }
 [class^='box_'] .header_3 {
@@ -344,7 +344,7 @@ img.put-float {
     letter-spacing: -1px;
 }
 [class^='box_'] .header_3 a:hover {
-    color: #54bf83;
+    color: #BA0C2F;
     text-decoration: none;
 }
 [class^='box_'] .header_4 {
@@ -359,7 +359,7 @@ img.put-float {
     letter-spacing: -1px;
 }
 [class^='box_'] .header_4 a:hover {
-    color: #54bf83;
+    color: #BA0C2F;
 }
 [class^='box_'] .credits,
 [class^='box_'] .credits a {
@@ -386,7 +386,7 @@ img.put-float {
     letter-spacing: -1px;
 }
 [class^='box_'] .header_5 a:hover {
-    color: #54bf83;
+    color: #BA0C2F;
 }
 [class^='box_'] .header_6 {
     padding-bottom: 9px;
@@ -395,7 +395,7 @@ img.put-float {
 [class^='box_'] .header_6 a {
     font: 400 20px 'Roboto', sans-serif;
     line-height: 25px;
-    color: #54bf83;
+    color: #BA0C2F;
     text-transform: uppercase;
     letter-spacing: -1px;
 }
@@ -570,7 +570,7 @@ ul.marked-list li:before {
     left: 0;
     font: normal 13px 'FontAwesome';
     line-height: 28px;
-    color: #54bf83;
+    color: #BA0C2F;
 }
 ul.marked-list li a {
     font: 400 15px 'Roboto', sans-serif;
@@ -584,7 +584,7 @@ ul.marked-list li a {
 }
 ul.marked-list li a:hover {
     text-decoration: none;
-    color: #54bf83;
+    color: #BA0C2F;
 }
 @media (max-width: 767px) {
     ul.marked-list {
@@ -592,7 +592,7 @@ ul.marked-list li a:hover {
     }
 }
 .primary {
-    color: #54bf83 !important;
+    color: #BA0C2F !important;
 }
 /* =================  Map ============== */
 .map {
@@ -683,7 +683,7 @@ FOOTER styles
 }
 .info .header,
 .info .header a {
-    color: #54bf83;
+    color: #BA0C2F;
     text-transform: uppercase;
 }
 .info .header:hover,
@@ -695,7 +695,7 @@ FOOTER styles
     color: #9fa6ae;
 }
 .info a:hover {
-    color: #54bf83;
+    color: #BA0C2F;
 }
 @media (max-width: 767px) {
     .info {
@@ -753,7 +753,7 @@ ul.social-list li a.fa-facebook {
     line-height: 18px;
 }
 ul.social-list li a:hover {
-    background-color: #54bf83;
+    background-color: #BA0C2F;
 }
 @media (max-width: 767px) {
     ul.social-list {
