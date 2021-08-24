@@ -16,7 +16,7 @@ body {
     font: 400 14px Arial, Times New Roman, serif;
 }
 a {
-    color: #54bf83;
+    color: #BA0C2F;
     font: 400 14px Arial, Times New Roman, serif;
     line-height: 24px;
     text-decoration: none;
@@ -27,7 +27,7 @@ a {
     transition: 0.3s all ease;
 }
 a:hover {
-    color: #2f7e52;
+    color: #BA0C2F;
     text-decoration: none;
 }
 a:active {
