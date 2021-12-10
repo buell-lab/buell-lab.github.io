@@ -325,21 +325,21 @@
 }
 
 .camera_buttons .camera_prev {
-    background: #54bf83 url(../images/slider-arrows.png) no-repeat 0px 0;
+    background: #BA0C2F url(../images/slider-arrows.png) no-repeat 0px 0;
     width: 36px;
 }
 
 .camera_buttons .camera_next {
-    background: #54bf83 url(../images/slider-arrows.png) no-repeat -36px 0;
+    background: #BA0C2F url(../images/slider-arrows.png) no-repeat -36px 0;
     width: 35px;
 }
 
 .camera_buttons .camera_prev:hover {
-    background: #54bf83 url(../images/slider-arrows-b.png) no-repeat 0px 0;
+    background: #BA0C2F url(../images/slider-arrows-b.png) no-repeat 0px 0;
 }
 
 .camera_buttons .camera_next:hover {
-    background: #54bf83 url(../images/slider-arrows-b.png) no-repeat -36px 0;
+    background: #BA0C2F url(../images/slider-arrows-b.png) no-repeat -36px 0;
 }
 
 .camera_thumbs_cont {
@@ -421,7 +421,7 @@
     font: 400 15px 'Open Sans', sans-serif;
     line-height: 30px;
     color: #fff;
-    border: 1px solid #54bf83;
+    border: 1px solid #BA0C2F;
     text-transform: uppercase;
     text-decoration: none;
     -webkit-transition: .3s all ease;
@@ -444,6 +444,6 @@
         color: #fff;
         background-color: #d7d9da;
         background-color: rgba(0, 0, 0, 0.5);
-        border: 1px solid #54bf83;
+        border: 1px solid #BA0C2F;
     }
 }
