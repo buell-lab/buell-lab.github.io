@@ -43,7 +43,7 @@
 .sf-menu > li.current > a,
 .sf-menu > li.sfHover > a,
 .sf-menu > li > a:hover {
-	color: #54bf83;
+	color: #BA0C2F;
 }
 .sf-menu > li:first-child {
 	margin-left: 0;
@@ -67,7 +67,7 @@
 	position: absolute;
 	top: 43px;
 	left: 50%;
-	background: #54bf83;
+	background: #BA0C2F;
 	padding: 36px 0 30px;
 	width: 234px;
 	margin-left: -114px;
@@ -101,7 +101,7 @@
 	height: 0;
 	border-style: solid;
 	border-width: 0 5px 5px 5px;
-	border-color: transparent transparent #54bf83 transparent;
+	border-color: transparent transparent #BA0C2F transparent;
 }
 /* Second level sub-menu styles
 ========================================================*/
@@ -126,7 +126,7 @@
 	border-color: transparent #363f45 transparent transparent;
 }
 .sf-menu ul ul li a:hover {
-	color: #54bf83;
+	color: #BA0C2F;
 }
 /* Select menu
 ========================================================*/
