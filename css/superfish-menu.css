@@ -44,6 +44,8 @@
 .sf-menu > li.sfHover > a,
 .sf-menu > li > a:hover {
 	color: #BA0C2F;
+	font-weight: bold;
+
 }
 .sf-menu > li:first-child {
 	margin-left: 0;
