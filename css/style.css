@@ -674,7 +674,7 @@ FOOTER styles
 .info a,
 .info .header {
     font: 400 14px 'Roboto', sans-serif;
-    line-height: 14px;
+    line-height: 18px;
 }
 .info:hover,
 .info a:hover,
@@ -688,14 +688,14 @@ FOOTER styles
 }
 .info .header:hover,
 .info .header a:hover {
-    color: #fff;
+    color: #030303;
 }
 .info,
 .info a {
     color: #fff;
 }
 .info a:hover {
-    color: #fff;
+    color: #030303;
 }
 @media (max-width: 767px) {
     .info {
