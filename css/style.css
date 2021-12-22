@@ -683,7 +683,7 @@ FOOTER styles
 }
 .info .header,
 .info .header a {
-    color: #BA0C2F;
+    color: #fff;
     text-transform: uppercase;
 }
 .info .header:hover,
@@ -692,10 +692,10 @@ FOOTER styles
 }
 .info,
 .info a {
-    color: #9fa6ae;
+    color: #fff;
 }
 .info a:hover {
-    color: #BA0C2F;
+    color: #fff;
 }
 @media (max-width: 767px) {
     .info {
