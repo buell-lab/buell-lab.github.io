@@ -43,7 +43,7 @@
 .sf-menu > li.current > a,
 .sf-menu > li.sfHover > a,
 .sf-menu > li > a:hover {
-	color: #BA0C2F;
+	color: #fff;
 	font-weight: bold;
 
 }
