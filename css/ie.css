@@ -25,10 +25,6 @@ ul.social-list .fa {
 .sf-menu > li > a:hover:after {
 	display: block;
 }
-.sf-menu > li.current > a {
-	color: #fff;
-	font-weight: bold;
-}
 
 a[data-type="lightbox"]:hover img {
 	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
