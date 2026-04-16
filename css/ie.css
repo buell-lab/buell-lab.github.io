@@ -26,8 +26,8 @@ ul.social-list .fa {
 	display: block;
 }
 .sf-menu li.current > a {
-    color: #fff;
-    font-weight: 700;
+    color: #fff !important;
+    font-weight: 700 !important;
 }
 
 a[data-type="lightbox"]:hover img {
