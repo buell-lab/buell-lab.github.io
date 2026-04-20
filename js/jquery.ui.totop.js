@@ -17,7 +17,7 @@
 		var containerIDhash = '#' + settings.containerID;
 		var containerHoverIDHash = '#'+settings.containerHoverID;
 			
-		$('body').append('<a href="#" id="'+settings.containerID+'" class="'+settings.containerClass+'" >'+settings.text+'</a>');
+		$('body').append('<a href="#top" id="'+settings.containerID+'" class="'+settings.containerClass+'" aria-label="Back to top"></a>');
 		
 		var button_width = parseInt($(containerIDhash).css("width"))+90
 		var button_width_1 = parseInt($(containerIDhash).css("width"))+20
